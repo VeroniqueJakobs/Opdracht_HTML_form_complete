@@ -1,0 +1,16 @@
+input { 
+    display: block;   
+}
+
+textarea { 
+    display: block;   
+}
+
+h3 {
+    margin-bottom:2px;
+    text-transform: uppercase;
+}
+
+.cuisine{
+    display:inline;
+}

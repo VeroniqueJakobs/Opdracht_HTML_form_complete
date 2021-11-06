@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Contact</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <h1>Post your favorite recipe on this cooking website:</h1>
+
+    <main>
+
+        <form name="contact" method="POST" data-netlify="true">
+
+            <p>
+                <!--name-->
+                <label>
+                    <h3>Name</h3>
+                </label>
+                <input type="text" name="name" value="name">
+            </p>
+
+            <p>
+                <!--email-->
+                <label>
+                    <h3>Email</h3>
+                </label>
+                <input type="email" name="email" value="email">
+            </p>
+
+            <p>
+                <!--telephone number-->
+                <label>
+                    <h3>Telephone number</h3>
+                </label>
+                <input type="tel" name="number" value="telephone number">
+            </p>
+
+            <p>
+                <!--age-->
+                <label>
+                    <h3>Age</h3>
+                </label>
+                <input type="number" name="age">
+            </p>
+
+            <p>
+                <!--date of birth-->
+                <label>
+                    <h3>Date of birth</h3>
+                </label>
+                <input type="date" name="date of birth" value="date of birth">
+            </p>
+
+            <p>
+                <!--gender (radio buttons)-->
+                <label>
+                    <h3>Gender</h3>
+                </label>
+                <input class="cuisine" type="radio" name="gender" value="male" />Male
+                <input class="cuisine" type="radio" name="gender" value="female" />Female
+            </p>
+
+            <h3>Favorite cuisine</h3>
+            <!--favorite cuisine: French, Italian, Spanish, or Arabic (checkbox)-->
+            <label>French</label>
+            <input class="cuisine" type="checkbox" name="favorite cuisine" value="french">
+
+            <label>Italian</label>
+            <input class="cuisine" type="checkbox" name="favorite cuisine" value="italian">
+
+            <label>Spanish</label>
+            <input class="cuisine" type="checkbox" name="favorite cuisine" value="spanish">
+
+            <label>Arabic</label>
+            <input class="cuisine" type="checkbox" name="favorite cuisine" value="arabic">
+            <p>
+
+                <!--favorite apron color (color picker)-->
+                <label>
+                    <h3>Favorite apron color</h3>
+                </label>
+                <input type="color" name="apron color" value="color">
+            </p>
+
+            <p>
+                <!--biography (text-area)-->
+                <label>
+                    <h3>Biography</h3>
+                </label>
+                <textarea name="biography">textfield</textarea>
+            </p>
+
+            <p>
+                <!--upload your latest recipe (file upload)-->
+                <label>
+                    <h3>Upload your latest recipe</h3>
+                </label>
+                <input type="file" name="latest_recipe">
+            </p>
+
+            <p>
+                <!--URL to recipe website (url)-->
+                <label>
+                    <h3>URL to recipe website</h3>
+                </label>
+                <input type="url" name="url_recipe_website">
+            </p>
+
+            <p>
+                <!--button of type reset to clear the form-->
+                <button type="reset"> Reset form</button>
+            </p>
+
+
+            <p>
+                <!-- button of type submit to submit the form-->
+                <button type="submit"> Submit</button>
+            </p>
+
+        </form>
+
+
+
+    </main>
+
+    <footer>
+
+    </footer>
+
+</body>
+
+</html>
